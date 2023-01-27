@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+   }
+   
+   .logo{
+   width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   }
+   
+   .logo img{
+    width: 50%;
+    border-radius: 50%;
+   }
+   
+   .navbar{
+       display: flex;
+       position: sticky;
+       align-items: center;
+       justify-content: center;
+       cursor: pointer;
+       top: 0;
+   }
+   
+   .nav-list{
+    display: flex;
+    align-items: center;
+   width: 50%;
+   
+   }
+   
+   .nav-list li{
+    width: 80px;
+    list-style: none;
+    padding: 26px 30px;
+   
+   }
+   
+   .nav-list li a{
+    text-decoration-style: none;
+    color: aliceblue;
+   }
+   
+   .nav-list li a:hover{
+    color: grey;
+    text-decoration: none;
+   }
+   
+   .rightnav{
+       text-align: right;
+       padding: 26px 30px;
+       width: 50%;
+
+   }
+   
+   #search{
+       border-radius: 20px;
+       font-style: 17px;
+       padding: 5px;
+       border: 2px solid gray;
+   }
+
+   .background{
+    background: rgba(0, 0, 0, 0.7)url('../HTML/bgimg.png');
+    background-size: cover;
+    background-blend-mode:darken;
+   }
+
+   .firstsection{
+    height: 100vh;
+   }
+   
+   .boxmain{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+   .firstHalf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: beige;
+   }
+
+   .secondHalf{
+    width: 30px;
+    border-radius: 50px;
+    border-color: white;
+   }
+
+   .text-big{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+   }
+
+   
+   .text-small{
+    font-size: 20px;
+
+   }
+
+   
+   .text-small img{
+    border-radius: 100px;
+    border-color: antiquewhite;
+    width: 200px;
+
+   }
+
+   .secright{
+   height: 500px;
+   justify-content: space-evenly;
+   display: flex;
+   align-items: center;
+   margin: auto;
+   max-width: 1000px;
+   
+   }
+
+   .secleft{
+    height: 500px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
+    flex-direction: row-reverse;
+   }
+
+.paras{
+    padding: 0px 98px;
+}
+
+.contact{
+    background-color:beige ;
+    height: 34vh;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.form{
+    margin: auto;
+    max-width: 170px;
+}
+
